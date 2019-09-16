@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/countlable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q1"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/questionlable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Question"
+        android:textAlignment="center"
+        android:textSize="17sp"/>
+    <Button
+        android:id="@+id/answer1"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_marginTop="80dp"
+        android:text="answer1"
+        android:onClick="checkAnswer"/>
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_marginTop="10dp"
+        android:text="answer2"
+        android:onClick="checkAnswer"/>
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_marginTop="10dp"
+        android:text="answer3"
+        android:onClick="checkAnswer"/>
+    <Button
+        android:id="@+id/answer4"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:layout_marginTop="10dp"
+        android:text="answer4"
+        android:onClick="checkAnswer"/>
+
+</LinearLayout>
